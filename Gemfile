@@ -70,3 +70,7 @@ gem 'rack', '>= 2.0.8'
 gem 'loofah', '>= 2.3.1'
 gem 'rubyzip', '>= 1.3.0'
 gem 'sprockets', '>= 3.7.2'
+
+#app specific
+gem 'bcrypt', '~> 3.1', '>= 3.1.12'
+gem 'rack-cors', :require => 'rack/cors'
