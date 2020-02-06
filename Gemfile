@@ -8,7 +8,7 @@ gem 'rails', '~> 5.2.0'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
-gem 'puma', '~> 3.11'
+gem "puma", ">= 3.12.2"
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -60,3 +60,13 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Github dependancy updates 
+gem 'actionview', '>= 5.2.2.1'
+gem 'railties', '>= 5.2.2.1'  
+gem 'activejob', '>= 5.2.1.1'
+gem 'activestorage', '>= 5.2.1.1'
+gem 'rack', '>= 2.0.8'
+gem 'loofah', '>= 2.3.1'
+gem 'rubyzip', '>= 1.3.0'
+gem 'sprockets', '>= 3.7.2'
